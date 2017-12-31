@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contact_us"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:background="@android:color/transparent"
+    tools:context="com.sandip.myword.ActivityContactUs">
+    <TextView
+        android:id="@+id/txt_cnt_us"
+        style="@style/style_text_title"
+        android:layout_width="wrap_content"
+        android:background="@drawable/title_wood"
+        android:gravity="center"
+        android:text="@string/txt_contact_us" />
+
+    <TextView
+        android:id="@+id/txt_email"
+        style="@style/style_text_title"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_below="@id/txt_cnt_us"
+        android:background="@drawable/single_brown_wood"
+        android:gravity="center"
+        android:text="myword22489@gmail.com" />
+
+</RelativeLayout>

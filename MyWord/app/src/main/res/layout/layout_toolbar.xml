@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/toolbar_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="@dimen/s40dp"
+            android:layout_height="@dimen/s40dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            style="@style/style_imgAplabates"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="@dimen/s3dp"
+            android:layout_toRightOf="@+id/img_back"
+            android:text="Level0"
+
+            android:visibility="gone"
+            android:gravity="center"
+            android:textStyle="italic|bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/s20sp" />
+
+        <ImageView
+            android:layout_width="@dimen/s50dp"
+            android:layout_height="@dimen/s50dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/back"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txt_timer"
+            style="@style/style_imgAplabates"
+            android:layout_width="@dimen/s130dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/s10dp"
+            android:layout_marginLeft="@dimen/s10dp"
+            android:textStyle="italic|bold"
+            android:textSize="@dimen/s25sp"
+            android:visibility="gone"
+            android:background="@drawable/level_display"
+            android:text="Timer" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.Toolbar>

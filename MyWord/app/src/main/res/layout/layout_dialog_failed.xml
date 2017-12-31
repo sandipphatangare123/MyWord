@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:theme="@style/Theme.Transparent">
+
+    <LinearLayout
+        android:id="@+id/lin_success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/popup_frame"
+        android:gravity="center"
+        android:orientation="vertical"
+       >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/style_txt_success_dialog_title"
+            android:layout_gravity="center"
+            android:padding="@dimen/s5dp"
+            android:text="@string/txt_your_not_word_match"
+            android:textColor="@color/colorRed"
+            android:textSize="@dimen/s25sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txt_word_english_meaning"
+                style="@style/style_txt_success_dialog_title"
+                android:maxLines="3"
+                android:padding="@dimen/s5dp"
+                android:text="@string/txt_failed"
+                android:textAlignment="textStart"
+                android:textColor="@color/color"
+                android:textSize="@dimen/s18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/s50dp"
+            android:layout_marginRight="@dimen/s50dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_word_not"
+                style="@style/style_txt_success_dialog_title"
+                android:padding="@dimen/s5dp"
+                android:text="@string/btn_show_word"
+                android:textAlignment="center"
+                android:textColor="@color/z" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/s50dp"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <Button
+                    android:id="@+id/btn_show"
+                    style="@style/style_imgAplabates"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:background="@drawable/home_play_button"
+                    android:text="@string/btn_show"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/s18sp" />
+
+                <Button
+                    android:id="@+id/btn_retry"
+                    style="@style/style_imgAplabates"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:background="@drawable/home_play_button"
+                    android:text="@string/btn_retry"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/s18sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/s5dp"
+        android:gravity="center">
+
+    </LinearLayout>
+
+</RelativeLayout>
+

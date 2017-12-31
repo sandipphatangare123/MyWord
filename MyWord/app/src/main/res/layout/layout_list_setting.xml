@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/single_brown_wood"
+    android:gravity="center"
+    android:paddingBottom="@dimen/s5dp">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_item_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/s20dp"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/s20dp"
+            android:layout_weight="80"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_game_level"
+                style="@style/style_text_title"
+                android:gravity="left"
+                android:text="level"
+                android:textSize="@dimen/s20sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

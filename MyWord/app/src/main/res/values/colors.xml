@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTitle">#A0693E</color>
+    <color name="colorDesc">#333333</color>
+    <color name="color">#EC407A</color>
+    <color name="colorPrimary">#D08C4D</color>
+    <color name="colorPrimaryDark">#4B2500</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorstroke">#ce93d8</color>
+    <color name="colorRed">#f44336</color>
+    <color name="colorQuotesAuthor">#333333</color>
+    <color name="colorNormalCategory">#666666</color>
+    <color name="colorBgGrid">#E1BEE7</color>
+    <color name="colorOnClick">#e040fb</color>
+    <color name="colorBgColor">#673AB7</color>
+
+
+    <color name="a">#826AAE</color>
+    <color name="b">#F080B2</color>
+    <color name="c">#6B88C4</color>
+    <color name="d">#88CEF2</color>
+    <color name="e">#F15C44</color>
+    <color name="f">#40C381</color>
+    <color name="g">#D34D58</color>
+    <color name="h">#29A7E1</color>
+    <color name="i">#8CC542</color>
+    <color name="j">#99857A</color>
+    <color name="k">#5eff33</color>
+    <color name="l">#F1588E</color>
+    <color name="m">#40C381</color>
+    <color name="n">#F15C44</color>
+    <color name="o">#88CEF2</color>
+    <color name="p">#6B88C4</color>
+    <color name="q">#F080B2</color>
+    <color name="r">#836AAE</color>
+    <color name="s">#99857A</color>
+    <color name="t">#3966B6</color>
+    <color name="u">#F1588E</color>
+    <color name="v">#8CC542</color>
+    <color name="w">#29A7E1</color>
+    <color name="x">#D34D58</color>
+    <color name="y">#40C381</color>
+    <color name="z">#3966B6</color>
+
+
+
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Word</string>
+    <string name="title_activity_game_level">खेळ पातळी</string>
+    <string name="title_activity_game_chapter"> पाठ </string>
+    <string name="title_activity_game_level_one">Level</string>
+    <string name="txt_your_word_match">आपका शब्द मिलान हुआ</string>
+    <string name="txt_your_not_word_match">माफ़ कीजिये !</string>
+
+    <!--Theme  Screen-->
+    <string name="txt_theme">थीम</string>
+    <string name="txt_day">दिन</string>
+    <string name="txt_night">रात</string>
+
+    <!--Rate us  Screen-->
+    <string name="txt_rate_us">हमें रेटिंग दें</string>
+
+    <!--Language Screen-->
+    <string name="txt_language">भाषा</string>
+    <string name="txt_english">अंग्रेज़ी</string>
+    <string name="txt_hindi">हिंदी</string>
+    <string name="txt_marathi">मराठी</string>
+
+
+    <!--Cntact us Screen-->
+    <string name="txt_contact_us">संपर्क करें</string>
+
+
+    <!--Welcome  Screen-->
+    <string name="btn_play">खेलिये</string>
+    <string name="btn_settings">सेटिंग्ज</string>
+    <string name="btn_help">मदद</string>
+    <string name="btn_start">सुरू किजिये</string>
+    <string name="btn_next"> आगे </string>
+    <string name="btn_show"> दिखाये  </string>
+    <string name="btn_change_lang">भाषा बदले</string>
+    <!--<string name="btn_show"> Show  </string>-->
+    <string name="btn_retry">पुन:प्रयास</string>
+    <string name="btn_ok">ठीक है</string>
+    <string name="btn_show_word">(यदि आप अपना शब्द देखना चाहते हैं तो दिखाये बटन पर क्लिक करें)</string>
+    <string name="txt_your_word">* आपका शब्द *</string>
+    <!--Dialogs Screen-->
+    <string name="txt_congratulation">बधाई हो</string>
+    <string name="txt_failed">आपका शब्द मेल नहीं खाता</string>
+    <string name="txt_level_complete">Level Completed</string>
+    <string name="txt_start_game"> सुरू किजिये / आगे बटन पर क्लिक करके अपना गेम प्रारंभ करें</string>
+
+</resources>

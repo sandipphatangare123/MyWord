@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Word</string>
+    <string name="title_activity_game_level">खेळ पातळी</string>
+    <string name="title_activity_game_chapter">धडा</string>
+    <string name="title_activity_game_level_one">Level</string>
+    <string name="txt_your_word_match">आपला शब्द जुळला</string>
+    <string name="txt_your_not_word_match">क्षमस्व!</string>
+
+    <!--Theme  Screen-->
+    <string name="txt_theme">थीम</string>
+    <string name="txt_day">दिवस</string>
+    <string name="txt_night">रात्र</string>
+
+    <!--Rate us  Screen-->
+    <string name="txt_rate_us">आम्हाला रेट करा</string>
+
+    <!--Language Screen-->
+    <string name="txt_language">भाषा</string>
+    <string name="txt_english">अंग्रेज़ी</string>
+    <string name="txt_hindi">हिंदी</string>
+    <string name="txt_marathi">मराठी</string>
+
+
+    <!--Cntact us Screen-->
+    <string name="txt_contact_us">संपर्क साधा </string>
+
+
+    <!--Welcome  Screen-->
+    <string name="btn_play">खेळा</string>
+    <string name="btn_settings">सेटिंग्ज</string>
+    <string name="btn_help">मदत</string>
+    <string name="btn_start">सुरू करा</string>
+    <string name="btn_change_lang">भाषा बदला</string>
+    <string name="btn_next"> पुढे </string>
+    <string name="btn_show">बघा</string>
+    <string name="btn_retry">प्रयत्न करा</string>
+    <string name="btn_ok">ठीक आहे</string>
+    <string name="btn_show_word">(आपण आपला शब्द पाहू इच्छित असल्यास शो बटण वर क्लिक करा)</string>
+    <string name="txt_your_word">* आपला शब्द *</string>
+    <!--Dialogs Screen-->
+    <string name="txt_congratulation">अभिनंदन</string>
+    <string name="txt_failed">आपला शब्द जुळत नाही</string>
+    <string name="txt_level_complete">Level Completed</string>
+    <string name="txt_start_game">आपला गेम सुरू करन्यासाठी सुरू करा / पुढे या बटणावर क्लिक करा </string>
+
+</resources>

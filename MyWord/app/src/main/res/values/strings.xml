@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">My Word</string>
+    <string name="title_activity_game_level">Game Level</string>
+    <string name="title_activity_game_chapter">Chapter</string>
+    <string name="title_activity_game_level_one">Level </string>
+    <string name="txt_your_word_match">Your word match</string>
+    <string name="txt_your_not_word_match">Sorry !</string>
+
+    <!--Theme  Screen-->
+    <string name="txt_theme">Theme</string>
+    <string name="txt_day">Day</string>
+    <string name="txt_night">Night</string>
+
+    <!--Rate us  Screen-->
+    <string name="txt_rate_us">Rate us</string>
+
+    <!--Language Screen-->
+    <string name="txt_language">Language</string>
+    <string name="txt_english">Language</string>
+    <string name="txt_hindi">Hindi</string>
+    <string name="txt_marathi">Marathi</string>
+
+    <!--Cntact us Screen-->
+    <string name="txt_contact_us">Contact us</string>
+
+    <!--Help Screen-->
+    <string name="txt_play">Contact us</string>
+    <string name="txt_chapter">Select word category from list for game.</string>
+    <string name="txt_level">Select level of word count from level list.</string>
+    <string name="txt_board">Start game by clicking start button and create your word.</string>
+
+
+
+    <!--Welcome  Screen-->
+    <string name="btn_play">Play</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_change_lang">Change Language</string>
+    <string name="btn_help">Help</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_show">Show</string>
+    <string name="btn_retry">Retry</string>
+    <string name="btn_ok">Ok</string>
+    <string name="txt_your_word">* Your Word *</string>
+    <string name="btn_show_word">(please click on show button if you want to see your word)</string>
+
+    <!--Dialogs Screen-->
+    <string name="txt_congratulation">Congratulation</string>
+    <string name="txt_failed">Your word does not match</string>
+    <string name="txt_level_complete">Level Completed</string>
+
+    <string name="txt_start_game">Start your game by click on start/Next/play button</string>
+
+
+</resources>
